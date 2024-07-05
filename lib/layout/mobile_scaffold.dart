@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:vercel/components/my_box.dart';
 import 'package:vercel/components/my_tile.dart';
 import 'package:vercel/constants/widget_constants.dart';
