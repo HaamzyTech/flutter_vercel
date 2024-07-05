@@ -4,6 +4,7 @@ var myDefaultBackground = Colors.grey.shade300;
 
 var myAppBar = AppBar(
   backgroundColor: Colors.grey.shade900,
+  iconTheme: const IconThemeData(color: Colors.white),
 );
 
 var myDrawer = Drawer(
