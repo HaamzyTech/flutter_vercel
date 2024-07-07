@@ -9,7 +9,17 @@ class MyTile extends StatelessWidget {
       padding: const EdgeInsets.all(8.0),
       child: Container(
         color: Colors.green,
-        height: 80,
+        height: 100,
+        child: const Center(
+          child: Text(
+            "Life is Today",
+            style: TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.w300,
+              color: Colors.white,
+            ),
+          ),
+        ),
       ),
     );
   }
